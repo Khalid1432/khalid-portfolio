@@ -6,10 +6,10 @@ import { registerUser, loginUser } from "../controllers/auth.js";
 import { handleContact, getAllContacts } from "../controllers/contactController.js";   
 import {
   createProject,
-  getAllProjects,
   updateProject,
   deleteProject,
-} from "../controllers/ProjectController.js";
+  getAllProjects
+} from "../controllers/projectController.js";
 
 router.post("/register", registerUser);
 router.post("/login", loginUser);
